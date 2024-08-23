@@ -1,0 +1,22 @@
+{
+    "arrowParens": "avoid",
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "importOrderSortSpecifiers": true,
+    "importOrderCaseInsensitive": true,
+    "importOrder": [
+        "discord.js",
+        "<THIRD_PARTY_MODULES>",
+        "^src/(.*)$",
+        "^@src/(.*)$",
+        "^@handlers/(.*)$",
+        "^@commands/(.*)$",
+        "^@guards/(.*)$",
+        "^[../]",
+        "^[./]"
+    ],
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}

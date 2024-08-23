@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "paths": {
+            "@src/*": ["./src/*"],
+            "@handlers/*": ["./src/handlers/*"],
+            "@commands/*": ["./src/commands/*"],
+            "@guards/*": ["./src/guards/*"]
+        },
+        "types": [
+            "./src/@types/discord.d.ts",
+            "./src/@types/env.d.ts",
+            "@cloudflare/workers-types"
+        ]
+    },
+    "exclude": ["node_modules"]
+}
