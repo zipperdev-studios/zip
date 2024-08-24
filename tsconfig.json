@@ -17,11 +17,7 @@
             "@commands/*": ["./src/commands/*"],
             "@guards/*": ["./src/guards/*"]
         },
-        "types": [
-            "./src/@types/discord.d.ts",
-            "./src/@types/env.d.ts",
-            "@cloudflare/workers-types"
-        ]
+        "types": ["./src/@types/discord.d.ts", "./src/@types/env.d.ts"]
     },
     "exclude": ["node_modules"]
 }
