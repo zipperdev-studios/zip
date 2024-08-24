@@ -1,6 +1,6 @@
 {
     "name": "zip",
-    "version": "0.1.0-alpha",
+    "version": "0.2.0-alpha",
     "main": "index.js",
     "scripts": {
         "start": "cross-env NODE_ENV=prod node -r ts-node/register dist/main.js",
